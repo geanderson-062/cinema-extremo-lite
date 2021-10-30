@@ -1,0 +1,52 @@
+
+.corPrimaria{
+    background-color: rgb(141, 1, 1);
+}
+
+.corSecundaria{
+    background-color: rgb(98, 0, 0);
+}
+
+/*fixar rodape(footer) no final*/
+.fixarRodape{
+    bottom: 0;
+    position: fixed;
+   width: 100%;
+  } 
+  /*fim fixar footer*/
+
+  /*botão da tela de login e cadastro*/
+
+div#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto; 
+  }
+  div#corpo-form-cad{  
+    width: 420px;
+    margin: 80px auto 0px auto; 
+  }
+  div#corpo-form h1,div#corpo-form-cad h1{
+    text-align: center; 
+    padding: 20px;
+  }
+  input{
+    display: block;  
+    height: 55px;   
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px; 
+    border: 1px solid black;/*cor da borda das barras*/
+    font-size: 16pt;
+    padding: 10px 20px;
+    outline: none;
+    background-color: rgba(255,255,255,0.01) ; /*cor do fundo da caixa de texto*/
+    color: black; /*cor do botão*/
+    outline: none ;
+  }
+  input[type=submit]{ 
+    background-color:  rgb(129, 0, 129);/*cor da barra cadastrar */
+    border: none; 
+    cursor: pointer; 
+  }
+  /*fim configuração de botão*/
