@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 .corPrimaria{
     background-color: rgb(141, 1, 1);
 }
